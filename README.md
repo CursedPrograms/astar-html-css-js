@@ -13,7 +13,7 @@
 
 ## A* Pathfinding for HTML
 
-Host files for Doodskrag website. Visit the live website [here](https://cursedprograms.github.io/astar-html-css-js/).
+Visit the live website [here](https://cursedprograms.github.io/astar-html-css-js/).
 
 
 <br>
