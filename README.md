@@ -11,9 +11,13 @@
 
 # A* HTML-CSS-JS
 
-A* Pathfinding for HTML
+## A* Pathfinding for HTML
 
+Visit the live website [here](https://cursedprograms.github.io/astar-html-css-js/).
 
+<br>
+© Cursed Entertainment 2024
+<br>
 <br>
 <div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
