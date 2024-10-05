@@ -1,61 +1,73 @@
-/* Reset some default browser styles */
-body,
-h1,
-h2,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-}
+@import url('https://cursedprograms.github.io/cursedentertainment/styles/error-style.css');
+@import url('https://cursedprograms.github.io/cursedentertainment/styles/main-style.css');
+@import url('/styles/colour-scheme.css');
 
-/* Set a base font size and family */
 body {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-}
-
-/* Style the header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-
-header h1 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
     margin: 0;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Style the main content area */
-main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
+h1 {
+    color: #333;
 }
 
-/* Style the footer */
-footer {
+#grid {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-gap: 1px;
+    background-color: #ccc;
+    padding: 1px;
+    border: 1px solid #999;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.wall {
     background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
 }
 
-/* Add additional styling as needed */
+.start {
+    background-color: #4CAF50;
+}
 
+.end {
+    background-color: #F44336;
+}
+
+.path {
+    background-color: #2196F3;
+}
+
+.visited {
+    background-color: #FFC107;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

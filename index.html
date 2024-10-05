@@ -2,79 +2,10 @@
 
 <head>
     <base href="">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>A* Pathfinding Visualizer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        #grid {
-            display: grid;
-            grid-template-columns: repeat(20, 30px);
-            grid-gap: 1px;
-            background-color: #ccc;
-            padding: 1px;
-            border: 1px solid #999;
-        }
-
-        .cell {
-            width: 30px;
-            height: 30px;
-            background-color: white;
-            border: 1px solid #ddd;
-            transition: background-color 0.3s;
-        }
-
-        .wall {
-            background-color: #333;
-        }
-
-        .start {
-            background-color: #4CAF50;
-        }
-
-        .end {
-            background-color: #F44336;
-        }
-
-        .path {
-            background-color: #2196F3;
-        }
-
-        .visited {
-            background-color: #FFC107;
-        }
-
-        #controls {
-            margin-top: 20px;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            margin: 0 10px;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cursedprograms.github.io/cursedentertainment/cursedFavicon.png" rel="icon"
+        type="image/x-icon" />
 </head>
 
 <body>
