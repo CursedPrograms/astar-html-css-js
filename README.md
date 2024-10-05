@@ -11,6 +11,8 @@
 
 # A* HTML-CSS-JS
 
+A* Pathfinding for HTML
+
 
 <br>
 <div align="center">
